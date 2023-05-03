@@ -39,6 +39,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
 
+/* Font  */
 .text-l {
   font-family: 'Fredoka';
   font-size: 5rem;
@@ -46,4 +47,30 @@
 .text-m {
   font-family: 'Fredoka';
   font-size: 2rem;
+}
+.text-right {
+  text-align: end;
+}
+
+/* Spacing */
+.top {
+  margin-top: 1rem;
+}
+
+/* Flex */
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form */
+.width {
+  width: 80%;
+}
+.display-none {
+  display: none;
+}
+/* Temp */
+.blue {
+  background-color: blue;
 }
