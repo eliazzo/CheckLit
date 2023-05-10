@@ -51,6 +51,9 @@
 .text-right {
   text-align: end;
 }
+.list-none {
+  list-style: none;
+}
 
 /* Spacing */
 .top-s {
@@ -80,6 +83,12 @@
   height: 300px;
   width: 300px;
 }
+
+/* List card */
+.card-width {
+  width: 300px
+}
+
 /* Temp */
 .blue {
   background-color: blue;
