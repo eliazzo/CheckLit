@@ -3,9 +3,10 @@ import { useState } from "react";
 import NewList from "./NewList";
 
 export default function ViewForm() {
-  const [showForm, setShowForm] = useState(false); // showForm = current state value, setShowForm = function that updates the state
+  
+  const [showForm, setShowForm] = useState(); // showForm = current state value, setShowForm = function that updates the state
 
-  const [newList, setNewList ] = useState(false)
+  const [newList, setNewList ] = useState()
 
   return (
     <div>
@@ -18,12 +19,14 @@ export default function ViewForm() {
         }`}
       >
         <input className="width top-l" type="text"></input>
-        <button className='top-s width' type='submit' onClick={ () => setNewList(true) }>
+        <button className='top-s width' type='submit' onClick={ () => {
+          setNewList(true) 
+          }}>
           Create new List
         </button>
       </div>
 
-      {newList && <NewList />}
+      { newList ? <NewList/> : '' }
       
     </div>
   );

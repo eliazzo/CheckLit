@@ -1,9 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
 import AppHeader from './components/AppHeader';
-import NewList from './components/NewList';
-import ListCard from './components/ListCard';
 import ViewForm from './components/ViewForm';
+import ListCard from './components/ListCard';
 
 
 
@@ -12,6 +11,7 @@ function App() {
     <div className="App">
       <AppHeader>Checklit</AppHeader>
       <ViewForm/>
+      <ListCard/>
       
     </div>
   );
