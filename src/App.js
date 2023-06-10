@@ -2,7 +2,8 @@
 import './App.css';
 import AppHeader from './components/AppHeader';
 import NewList from './components/NewList';
-import MyLists from './components/MyLists';
+import ListCard from './components/ListCard';
+import ViewForm from './components/ViewForm';
 
 
 
@@ -10,8 +11,8 @@ function App() {
   return (
     <div className="App">
       <AppHeader>Checklit</AppHeader>
-      <NewList/>
-      <MyLists/>
+      <ViewForm/>
+      
     </div>
   );
 }

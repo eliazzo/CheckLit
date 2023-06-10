@@ -1,6 +1,6 @@
 import React from 'react'
 
-function MyLists() {
+function ListCard() {
   return (
     <div>
         <h1 className="text-m">My Lists</h1>
@@ -16,4 +16,4 @@ function MyLists() {
   )
 }
 
-export default MyLists
+export default ListCard
