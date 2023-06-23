@@ -1,34 +1,27 @@
-import React from "react";
-import { useState } from "react";
+import React, { useEffect } from "react";
 import NewList from "./NewList";
+import { useState} from "react";
 
 export default function ViewForm() {
-  
-  const [showForm, setShowForm] = useState(); // showForm = current state value, setShowForm = function that updates the state
 
-  const [newList, setNewList ] = useState()
+  const [newList, setNewList] = useState(false);
+
+  // useEffect(() => {
+  //   if (newList) {
+  //     setNewList(false)
+  //   }
+  // }, [newList]);
 
   return (
     <div>
-      <h1 className="text-m ">New List</h1>
-      <button onClick={() => setShowForm(!showForm)}>+</button>
+    <h1 className="text-m ">New List</h1>
+      <input className="width top-l" type="text"></input>
+      <button className='top-s width' type='submit' onClick={() => setNewList(true)}>Add new list</button>
 
-      <div
-        className={`newListForm flex-col width ${
-          showForm ? "" : "display-none"
-        }`}
-      >
-        <input className="width top-l" type="text"></input>
-        <button className='top-s width' type='submit' onClick={ () => {
-          setNewList(true) 
-          }}>
-          Create new List
-        </button>
-      </div>
-
-      { newList ? <NewList/> : '' }
-      
+      <output>{newList ? <NewList /> : ''}</output>
     </div>
+
   );
 }
 
+// dynamically render 
