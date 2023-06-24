@@ -1,12 +1,11 @@
-import ListCard from "./ListCard"
+import ListCard from "./ListCard";
 
 const ListContainer = () => {
   return (
     <>
-    <ListCard/>
+      <ListCard />
     </>
-  )
+  );
+};
 
-}
-
-export default ListContainer
+export default ListContainer;
