@@ -1,15 +1,15 @@
-import React from 'react'
-import ListCard from './ListCard';
+// import React from 'react'
+// import ListCard from './ListCard';
 
 
-function NewList() {
-  console.log('newList')
-  return (
-    <div>
-      <ListCard/>
-    </div>
-  )
+// function NewList() {
+//   console.log('newList')
+//   return (
+//     <div>
+//       <ListCard/>
+//     </div>
+//   )
   
-}
+// }
 
-export default NewList
+// export default NewList
