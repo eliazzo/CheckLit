@@ -17,7 +17,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prepare": "husky install",
-    "format": "prettier --write ."
+    "format": "prettier --write --ignore-path .gitignore .",
+    "lint": "./node_modules/.bin/eslint ."
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +40,7 @@
   },
   "devDependencies": {
     "husky": "^8.0.3",
-    "prettier": "2.8.8"
+    "prettier": "2.8.8",
+    "ESLint": "8.43.0"
   }
 }
