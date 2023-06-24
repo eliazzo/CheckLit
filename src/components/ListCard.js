@@ -1,11 +1,11 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 
-function ListCard() {
+function ListCard({ listName }) {
   return (
     <div>
-      <h1 className="text-m">My Lists</h1>
       <div className="blue card-width">
-        <h2>Shopping</h2>
+        <h2>{listName}</h2>
         <ul className="list-none">
           <li>
             <input type="checkbox"></input>Eggs
