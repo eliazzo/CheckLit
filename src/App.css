@@ -37,15 +37,15 @@
   }
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap");
 
 /* Font  */
 .text-l {
-  font-family: 'Fredoka';
+  font-family: "Fredoka";
   font-size: 5rem;
 }
 .text-m {
-  font-family: 'Fredoka';
+  font-family: "Fredoka";
   font-size: 2rem;
 }
 .text-right {
@@ -86,7 +86,7 @@
 
 /* List card */
 .card-width {
-  width: 300px
+  width: 300px;
 }
 
 /* Temp */
