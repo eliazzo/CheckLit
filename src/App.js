@@ -14,8 +14,10 @@ function App() {
       <AppHeader>Checklit</AppHeader>
       <NewList/>
       <MyLists/>
+      <div>
       <SimpleExample/>
       <V2Example/>
+      </div>
     </div>
   );
 }
