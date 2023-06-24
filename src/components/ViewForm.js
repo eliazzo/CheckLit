@@ -10,11 +10,6 @@ export default function ViewForm() {
  const addNewList = () => {
   const newList = <ListCard/>
   setListArr(prevArr => [...[prevArr], newList])
-  console.log(listArr)
-  // console.log(ListCard)
-  // let cardArr = [];
-  // cardArr.push(ListCard)
-  // console.log(cardArr)
  }
 
   return (
@@ -30,4 +25,3 @@ export default function ViewForm() {
   );
 }
 
-// dynamically render 
