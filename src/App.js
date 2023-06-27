@@ -7,6 +7,8 @@ import SimpleExample from './components/SimpleExample';
 import { V2Example } from './components/V2Example';
 
 
+import React from "react";
+import ViewForm from "./components/ViewForm";
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
       <SimpleExample/>
       <V2Example/>
       </div>
+      <ViewForm />
     </div>
   );
 }
