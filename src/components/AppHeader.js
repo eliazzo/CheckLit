@@ -1,6 +1,6 @@
 import React from "react";
 
-function AppHeader() {
+const AppHeader = () => {
   return (
     <div>
       <h1 className="text-l">CheckLit</h1>

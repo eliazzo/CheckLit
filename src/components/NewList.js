@@ -1,14 +1,13 @@
-// import React from 'react'
-// import ListCard from './ListCard';
+import React from 'react'
+import NewListForm from './ViewForm'
 
-// function NewList() {
-//   console.log('newList')
-//   return (
-//     <div>
-//       <ListCard/>
-//     </div>
-//   )
+const NewList = () => {
+  return (
+    <div>
+      <NewListForm />
+    </div>
+  )
 
-// }
+}
 
-// export default NewList
+export default NewList

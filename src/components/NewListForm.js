@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import ListCard from "./ListCard";
 
-export default function ViewForm() {
+const NewListForm = () => {
   const [listName, setListName] = useState("");
   const handleInput = (event) => {
     setListName(event.target.value);
@@ -33,3 +33,5 @@ export default function ViewForm() {
     </div>
   );
 }
+
+export default NewListForm

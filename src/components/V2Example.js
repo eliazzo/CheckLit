@@ -19,7 +19,7 @@ const DraggableBox = ({ id }) => {
   );
 };
 
-export function V2Example() {
+const V2Example = () => {
   return (
     <div
       style={{ display: "flex", justifyContent: "space-evenly", width: "100%" }}
@@ -30,5 +30,9 @@ export function V2Example() {
         <Xarrow start={"elem1"} end="elem2" />
       </Xwrapper>
     </div>
-  );
+  )
 }
+
+export default V2Example
+
+
