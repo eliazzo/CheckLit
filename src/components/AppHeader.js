@@ -8,6 +8,6 @@ const AppHeader = () => {
       <img src="./logo.jpeg" alt="CheckLit logo" />
     </div>
   );
-}
+};
 
 export default AppHeader;

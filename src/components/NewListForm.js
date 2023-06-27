@@ -32,6 +32,6 @@ const NewListForm = () => {
       ))}
     </div>
   );
-}
+};
 
-export default NewListForm
+export default NewListForm;

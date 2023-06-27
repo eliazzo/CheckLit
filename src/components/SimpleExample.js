@@ -9,19 +9,21 @@ const boxStyle = {
 
 function SimpleExample() {
   const box1Ref = useRef(null);
+  
   return (
     <div
       style={{ display: "flex", justifyContent: "space-evenly", width: "100%" }}
     >
+      <h1>Simple example</h1>
       <div ref={box1Ref} style={boxStyle}>
         hey
       </div>
-      <p id="elem2" style={boxStyle}>
+      <p id="hey2" style={boxStyle}>
         hey2
       </p>
       <Xarrow
         start={box1Ref} //can be react ref
-        end="elem2" //or an id
+        end="elem3" //or an id
       />
     </div>
   );

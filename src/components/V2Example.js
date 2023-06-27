@@ -22,17 +22,16 @@ const DraggableBox = ({ id }) => {
 const V2Example = () => {
   return (
     <div
-      style={{ display: "flex", justifyContent: "space-evenly", width: "100%" }}
+      style={{ display: "flex", flexDirection: "column", justifyContent: "space-evenly", width: "100%" }}
     >
+      <h1>v2 example</h1>
       <Xwrapper>
         <DraggableBox id={"elem1"} />
         <DraggableBox id={"elem2"} />
         <Xarrow start={"elem1"} end="elem2" />
       </Xwrapper>
     </div>
-  )
-}
+  );
+};
 
-export default V2Example
-
-
+export default V2Example;
